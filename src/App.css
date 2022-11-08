@@ -1,0 +1,178 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  background-color: #000000;
+  min-height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+}
+
+.task-create-section-container {
+  background-color: #131213;
+  width: 30%;
+  padding: 20px;
+}
+
+.task-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  text-align: center;
+  color: #f3aa4e;
+  margin-top: 20px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+.label-headings {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.task-element {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+}
+
+.input-element {
+  height: 40px;
+  width: 300px;
+}
+
+.add-btn-text {
+  height: 40px;
+  width: 120px;
+  align-self: center;
+  margin-top: 30px;
+  margin-right: 10px;
+  background-color: #f3aa4e;
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.task-list-section-container {
+  padding-top: 40px;
+  padding-left: 10px;
+  width: 100%;
+}
+
+.tags-headings {
+  font-family: 'Roboto';
+  font-size: 30px;
+  color: #ffffff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.tags-list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.list-item {
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.tag-btn {
+  height: 40px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: 1px solid #f3aa4e;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+  border-radius: 20px;
+}
+
+.active-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.new-task-list-container {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.task-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #1a171d;
+  padding: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 10px;
+  width: 100%;
+}
+
+.task-description {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.task-item-btn {
+  background-color: #f3aa4e;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  height: 30px;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: center;
+}
+
+.no-task-headings {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 150px;
+}
